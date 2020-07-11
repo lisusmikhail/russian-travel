@@ -1,0 +1,21 @@
+.intro__list {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__list {
+    padding-left: calc(24px - ((100vw - 767px)*(24 - 0))/(1023 - 767));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    padding-left: calc(16px + ((100vw - 320px)*(24 - 16))/(767 - 320));
+  }
+}

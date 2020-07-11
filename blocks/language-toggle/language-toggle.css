@@ -1,0 +1,30 @@
+.language-toggle {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0 48px 0 0;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+  line-height: 2;
+}
+
+@media screen and (max-width: 1023px) {
+  .language-toggle {
+    padding-right: calc(24px + ((100vw - 767px)*(48 - 24))/(1023 - 767));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .language-toggle {
+    padding-right: calc(16px + ((100vw - 320px)*(24 - 16))/(767 - 320));
+  }
+}
+
+
+
+
+
+
+
+

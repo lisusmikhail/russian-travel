@@ -1,0 +1,17 @@
+@media screen and (min-width: 1280px) {
+  .place_position_zima-baikal {
+    padding: 0 0 86px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place_position_zima-baikal {
+    padding: 0 0 86px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .place_position_zima-baikal {
+    padding: 0 0 78px;
+  }
+}

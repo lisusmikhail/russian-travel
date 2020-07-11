@@ -1,0 +1,15 @@
+.footer__resources {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 656px) {
+  .footer__resources {
+    display: block;
+  }
+}

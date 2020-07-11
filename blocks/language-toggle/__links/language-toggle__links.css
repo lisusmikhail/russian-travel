@@ -1,0 +1,8 @@
+.language-toggle__links {
+ list-style: none;
+  padding-right: 18px;
+}
+
+.language-toggle__links:last-child {
+  padding-right: 0;
+}

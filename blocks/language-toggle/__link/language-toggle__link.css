@@ -1,0 +1,14 @@
+.language-toggle__link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: normal;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .language-toggle__link {
+    font-size: calc(18px + ((100vw - 320px)*(24 - 18))/(767 - 320));
+    line-height: calc(24px + ((100vw/1.6 - 320px/1.6)*(28 - 24))/(767/1.6 - 320/1.6));
+  }
+}
