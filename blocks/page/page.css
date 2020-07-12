@@ -1,12 +1,8 @@
-span {
-  margin: 0;
-  padding:0;
-}
-
 .page {
   font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: #fff;
   max-width: 1280px;
   margin: 0 auto;
 }
-
