@@ -1,4 +1,4 @@
-.language-toggle__link {
+.header__language-toggle_link {
   text-decoration: none;
   font-size: 24px;
   line-height: 1.17;
@@ -6,8 +6,13 @@
   color: #fff;
 }
 
+.header__language-toggle_link:hover {
+  opacity: .5;
+  transition: opacity 1s ease .2s;
+}
+
 @media screen and (max-width: 767px) {
-  .language-toggle__link {
+  .header__language-toggle_link {
     font-size: calc(18px + ((100vw - 320px)*(24 - 18))/(767 - 320));
     line-height: calc(24px + ((100vw/1.6 - 320px/1.6)*(28 - 24))/(767/1.6 - 320/1.6));
   }

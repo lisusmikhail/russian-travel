@@ -1,4 +1,4 @@
-.language-toggle {
+.header__language-toggle {
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -10,14 +10,14 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .language-toggle {
-    padding-right: calc(24px + ((100vw - 767px)*(48 - 24))/(1023 - 767));
+  .header__language-toggle {
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .language-toggle {
-    padding-right: calc(16px + ((100vw - 320px)*(24 - 16))/(767 - 320));
+  .header__language-toggle {
+    padding-right: 16px;
   }
 }
 

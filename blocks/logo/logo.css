@@ -6,15 +6,15 @@
 
 @media screen and (max-width: 1023px) {
   .logo {
-    padding-left: calc(24px + ((100vw - 767px)*(48 - 24))/(1023 - 767));
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .logo {
-    width: calc(142px + ((100vw - 320px)*(176 - 142))/(767 - 320));
-    height: calc(42px + ((100vw/1.6 - 320px/1.6)*(52 - 42))/(767/1.6 - 320/1.6));
-    padding-left: calc(16px + ((100vw - 320px)*(24 - 16))/(767 - 320));
-    padding-top: calc(16px + ((100vw/1.6 - 320px/1.6)*(28 - 16))/(767/1.6 - 320/1.6));
+    width: 142px;
+    height: 42px;
+    padding-left: 16px;
+    padding-top: 16px;
   }
 }

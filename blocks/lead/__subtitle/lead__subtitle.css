@@ -10,7 +10,8 @@
 
 @media screen and (max-width: 1279px) {
   .lead__subtitle {
-    padding-bottom: calc(56px + ((100vw/1.6 - 1023px/1.6)*(64 - 56))/(1279/1.6 - 1023/1.6));
+    /*padding-bottom: calc(56px + ((100vw/1.6 - 1023px/1.6)*(64 - 56))/(1279/1.6 - 1023/1.6));*/
+    padding-bottom: 56px;
     padding-top: 24px;
   }
 }
@@ -25,11 +26,8 @@
   .lead__subtitle {
     font-weight: normal;
     min-width: 288px;
-    padding-top: calc(13px + ((100vw/1.6 - 320px/1.6)*(32 - 13))/(767/1.6 - 320/1.6));
-    padding-bottom: calc(40px + ((100vw/1.6 - 320px/1.6)*(56 - 40))/(767/1.6 - 320/1.6));
-    padding-left: calc(16px + ((100vw - 320px)*(64 - 16))/(767 - 320));
-    padding-right: calc(16px + ((100vw - 320px)*(64 - 16))/(767 - 320));
-    font-size: calc(16px + ((100vw - 320px)*(30 - 16))/(767 - 320));
-    line-height: calc(20px + ((100vw/1.6 - 320px/1.6)*(36 - 20))/(767/1.6 - 320/1.6));
+    padding: 13px 16px 40px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }

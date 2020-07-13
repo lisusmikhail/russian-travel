@@ -16,16 +16,22 @@
 
 @media screen and (max-width: 1023px) {
   .intro__text {
-    max-width: calc(720px - ((100vw - 767px)*(720 - 690))/(1023 - 767));
-    padding-left: calc(24px - ((100vw - 767px)*(24 - 0))/(1023 - 767));
+    max-width: 720px;
+    padding-left: 24px;
     padding-bottom: 34px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__text {
-    max-width: calc(288px + ((100vw - 320px) * (720 - 288)) / (767 - 320));
-    padding-left: calc(16px + ((100vw - 320px)*(24 - 16))/(767 - 320));
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 374px) {
+    .intro__text {
+    max-width: 288px;
+    padding-left: 16px;
     padding-bottom: 34px;
     padding-top: 35px;
   }

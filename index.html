@@ -10,14 +10,14 @@
 <div class="page">
   <header class="header">
     <img src="./images/header-logo.svg" class="logo" alt="Логотип">
-    <ul class="language-toggle">
-      <li class="language-toggle__links">
-        <a href="#" target="_self" class="language-toggle__link language-toggle__link_state">
+    <ul class="header__language-toggle">
+      <li class="header__language-toggle_links">
+        <a href="#" target="_self" class="header__language-toggle_link header__language-toggle_link_active">
           Ru
         </a>
       </li>
-      <li class="language-toggle__links">
-        <a href="#" target="_self" class="language-toggle__link">
+      <li class="header__language-toggle_links">
+        <a href="#" target="_self" class="header__language-toggle_link">
           En
         </a>
       </li>
@@ -45,11 +45,11 @@
         Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
       </p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class="intro__list intro__list_typo">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span  class="intro__list intro__list_typo">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_typo">16</span></li>
+        <li>Природных заповедников <span class="intro__list intro__list_typo">105</span></li>
+        <li>Аэропортов <span class="intro__list intro__list_typo">241</span></li>
       </ul>
     </section>
     <section class="photo">
@@ -174,15 +174,17 @@
       </article>
     </section>
     <section class="cover">
-      <p class="cover__title">
-        До Байкала
-        «на собаках»
-      </p>
-      <h3 class="cover__subtitle ">По мотивам учебной темы
-        о Транссибе и iframes — путешествие
-        от столицы до Байкала на электричках.
-      </h3>
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+        <div class="cover__texts">
+          <p class="cover__title">
+          До Байкала
+          «на собаках»
+          </p>
+          <p class="cover__subtitle ">По мотивам учебной темы
+          о Транссибе и iframes — путешествие
+          от столицы до Байкала на электричках.
+          </p>
+        </div>
         <div class="cover__pic"></div>
       </a>
     </section>

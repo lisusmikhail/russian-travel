@@ -10,16 +10,16 @@
 
 @media screen and (max-width: 1023px) {
   .intro__title {
-    padding-left: calc(24px - ((100vw - 767px)*(24 - 0))/(1023 - 767));
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__title {
-    max-width: calc(288px + ((100vw - 320px) * (720 - 288)) / (767 - 320));
-    font-size: calc(32px + ((100vw - 320px) * (54 - 32)) / (767 - 320));
-    line-height: calc(35px + ((100vw / 1.6 - 320px / 1.6) * (58 - 35)) / (767 / 1.6 - 320 / 1.6));
-    padding-left: calc(16px + ((100vw - 320px)*(24 - 16))/(767 - 320));
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-left: 16px;
     white-space: pre-line;
   }
 }

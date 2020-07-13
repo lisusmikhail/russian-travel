@@ -11,13 +11,12 @@
 
 @media screen and (max-width: 1023px) {
   .lead__caption {
-    padding-left: calc(24px - ((100vw - 767px)*(24 - 0))/(1023 - 767));
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__caption {
-    padding-left: calc(16px + ((100vw - 320px)*(24 - 16))/(767 - 320));
-
+    padding-left: 16px;
   }
 }

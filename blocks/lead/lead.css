@@ -9,14 +9,14 @@
 
 @media screen and (max-width: 1279px) {
   .lead {
-    width: calc(928px + ((100vw - 1023px)*(984 - 928))/(1279 - 1023));
+    width: 928px;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead {
-    width: calc(767px + ((100vw - 767px)*(928 - 767))/(1023 - 767));
+    width: 767px;
      margin: 0 auto;
    }
 }
