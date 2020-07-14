@@ -1,8 +1,0 @@
-.header__language-toggle_links {
- list-style: none;
-  padding-right: 18px;
-}
-
-.header__language-toggle_links:last-child {
-  padding-right: 0;
-}
